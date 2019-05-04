@@ -10,7 +10,5 @@ var fullDate = 'Today is: ' + day + '.' + '\n' + 'Current time: ' + hour + "" + 
 console.log(fullDate)
 
 function bike(){
-    
-
 
 }
