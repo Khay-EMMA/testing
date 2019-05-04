@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js"></script>
+    <script src = "practice.js"></script>
+    <title>JavaScript Fundamentals</title>
+</head>
+<body id="body">
+
+
+    <div class="container">
+        <form action="something.php" method="post" name="myForm" onsubmit="return validateForm()">
+            <div>
+                <label >FirstName</label>
+                <input type="text" name="firstName" id="firstName" />
+            </div>
+                
+            <div>
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" id="lastName"/>
+            </div>
+            <br />
+
+            <div>
+                <label>Background Color</label>
+                <select name="background" id="background" onchange="changeBackground(this)">
+                   <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                </select>
+            </div>
+            <br />
+            <input type="submit" value="Submit"/>
+
+
+        </form>
+    </div>
+
+</body>
+</html>
